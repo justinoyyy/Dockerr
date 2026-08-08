@@ -1,0 +1,6 @@
+services:
+  website:
+    build: .
+    container_name: my-php-app
+    ports:
+      - "8080:80"
